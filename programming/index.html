@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Foundations of Programming</title>
+  <style>
+    *, *::before, *::after {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f0f4f8;
+      color: #1a202c;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+
+    header {
+      background-color: #1e3a5f;
+      color: #ffffff;
+      padding: 2rem 1.5rem;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 2.2rem;
+      letter-spacing: 0.5px;
+    }
+
+    header p {
+      margin-top: 0.5rem;
+      font-size: 1.05rem;
+      color: #a8c4e0;
+    }
+
+    .breadcrumb {
+      max-width: 960px;
+      width: 100%;
+      margin: 1.5rem auto 0;
+      padding: 0 1.5rem;
+      font-size: 0.9rem;
+      color: #4a5568;
+    }
+
+    .breadcrumb a {
+      color: #1e3a5f;
+      text-decoration: none;
+      font-weight: 600;
+    }
+
+    .breadcrumb a:hover {
+      text-decoration: underline;
+    }
+
+    main {
+      flex: 1;
+      max-width: 960px;
+      width: 100%;
+      margin: 2rem auto 3rem;
+      padding: 0 1.5rem;
+    }
+
+    .section-title {
+      font-size: 1.1rem;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      color: #4a5568;
+      margin-bottom: 1.5rem;
+    }
+
+    .card-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 1.5rem;
+    }
+
+    .card {
+      background-color: #ffffff;
+      border-radius: 12px;
+      padding: 2rem;
+      text-decoration: none;
+      color: inherit;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+      border: 2px solid transparent;
+      transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+      display: flex;
+      flex-direction: column;
+      gap: 0.75rem;
+    }
+
+    .card:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+      border-color: #1e3a5f;
+    }
+
+    .card.disabled {
+      opacity: 0.55;
+      cursor: not-allowed;
+      pointer-events: none;
+    }
+
+    .card-icon {
+      font-size: 2.5rem;
+    }
+
+    .card h2 {
+      font-size: 1.3rem;
+      color: #1e3a5f;
+    }
+
+    .card p {
+      font-size: 0.95rem;
+      color: #4a5568;
+      line-height: 1.6;
+    }
+
+    .tag {
+      display: inline-block;
+      margin-top: 0.5rem;
+      padding: 0.25rem 0.75rem;
+      border-radius: 999px;
+      font-size: 0.8rem;
+      font-weight: 600;
+    }
+
+    .tag-active {
+      background-color: #ebf4ff;
+      color: #1e3a5f;
+    }
+
+    .tag-soon {
+      background-color: #fef3c7;
+      color: #92400e;
+    }
+
+    footer {
+      text-align: center;
+      padding: 1.5rem;
+      font-size: 0.85rem;
+      color: #718096;
+      border-top: 1px solid #e2e8f0;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Foundations of Programming</h1>
+    <p>Choose a language or tool to get started</p>
+  </header>
+
+  <nav class="breadcrumb">
+    <a href="../index.html">← Back to Portal</a>
+  </nav>
+
+  <main>
+    <p class="section-title">Available Topics</p>
+    <div class="card-grid">
+
+      <a href="MATLAB/index.html" class="card">
+        <div class="card-icon">📊</div>
+        <h2>MATLAB</h2>
+        <p>
+          Learn MATLAB for numerical computing, matrix operations, data
+          visualisation, and engineering problem solving.
+        </p>
+        <span class="tag tag-active">MATLAB</span>
+      </a>
+
+      <a href="C++/index.html" class="card">
+        <div class="card-icon">⚙️</div>
+        <h2>C++</h2>
+        <p>
+          Explore C++ fundamentals — syntax, control flow, functions, pointers,
+          and object-oriented programming concepts.
+        </p>
+        <span class="tag tag-active">C++</span>
+      </a>
+
+      <div class="card disabled">
+        <div class="card-icon">🐍</div>
+        <h2>Python</h2>
+        <p>
+          Python content covering scripting, data handling, and automation
+          will be available here soon.
+        </p>
+        <span class="tag tag-soon">Coming Soon</span>
+      </div>
+
+    </div>
+  </main>
+
+  <footer>
+    &copy; 2026 First-Year Engineering Portal
+  </footer>
+
+</body>
+</html>

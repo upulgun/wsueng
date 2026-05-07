@@ -1,0 +1,3 @@
+Module 12 Question Answers.
+1. (c) 2. (a) 3. (d) 4. (c) 5. (b) 6. (b) 7. (d) 8. (c) 9. (c) 10. (c)  
+Note for Q8, the correct answer is (c); in the system, it is incorrectly coded as (d).
