@@ -1,0 +1,7 @@
+Module 01 - Introduction to Excel
+1. Introduction to Arrays.
+2. Excel Basics.
+3. Addressing Cells.
+4. Basic Mathematical Operations.
+5. Advanced Mathematical Operations.
+6. Graphing.
