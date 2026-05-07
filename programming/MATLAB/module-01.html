@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Module 1 – MATLAB Fundamentals</title>
+  <link rel="stylesheet" href="module.css" />
+</head>
+<body>
+
+<header>
+  <div class="module-tag">Module 1 of 8</div>
+  <h1>MATLAB Fundamentals</h1>
+  <p>3 lessons &nbsp;·&nbsp; UI overview, variables, scripts &amp; formatting</p>
+</header>
+
+<nav class="breadcrumb">
+  <a href="../../index.html">Portal</a><span>›</span>
+  <a href="../index.html">Foundations of Programming</a><span>›</span>
+  <a href="index.html">MATLAB</a><span>›</span>
+  Module 1
+</nav>
+
+<div class="page-body">
+
+  <!-- Sidebar -->
+  <aside class="sidebar">
+    <h3>All Modules</h3>
+    <a href="module-01.html" class="active"><span class="num">1</span>MATLAB Fundamentals</a>
+    <a href="module-02.html"><span class="num">2</span>MATLAB Functions</a>
+    <a href="module-03.html"><span class="num">3</span>Arrays and Matrices</a>
+    <a href="module-04.html"><span class="num">4</span>Logical Statements</a>
+    <a href="module-05.html"><span class="num">5</span>Loops</a>
+    <a href="module-06.html"><span class="num">6</span>MATLAB Graphics</a>
+    <a href="module-07.html"><span class="num">7</span>User-defined Functions</a>
+    <a href="module-08.html"><span class="num">8</span>Symbolic Mathematics</a>
+  </aside>
+
+  <!-- Main content -->
+  <main class="content">
+    <p class="section-label">Lessons</p>
+
+    <!-- Lesson 1 -->
+    <article class="lesson">
+      <div class="lesson-header">
+        <div class="lesson-num">1</div>
+        <h2>First look at MATLAB</h2>
+      </div>
+      <div class="video-wrap">
+        <iframe src="https://www.youtube.com/embed/iDMsj5bF2Ko" allowfullscreen
+          title="First look at MATLAB"></iframe>
+      </div>
+      <div class="lesson-body">
+        <div class="lesson-links">
+          <a class="yt-link" href="https://youtu.be/iDMsj5bF2Ko" target="_blank" rel="noopener">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M23.5 6.2a3 3 0 0 0-2.1-2.1C19.5 3.5 12 3.5 12 3.5s-7.5 0-9.4.6A3 3 0 0 0 .5 6.2 31 31 0 0 0 0 12a31 31 0 0 0 .5 5.8 3 3 0 0 0 2.1 2.1c1.9.6 9.4.6 9.4.6s7.5 0 9.4-.6a3 3 0 0 0 2.1-2.1A31 31 0 0 0 24 12a31 31 0 0 0-.5-5.8zM9.7 15.5V8.5l6.3 3.5-6.3 3.5z"/></svg>
+            Watch on YouTube
+          </a>
+          <a class="pdf-link" href="Module 01 - MATLAB Fundamentals/Lecture 1 - 1 First Look.pdf" target="_blank" rel="noopener">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8l-6-6zm-1 1.5L18.5 9H13V3.5zM6 20V4h5v7h7v9H6z"/></svg>
+            Lecture Slides
+          </a>
+        </div>
+        <h3>Topics covered</h3>
+        <ul>
+          <li>Overview of the UI</li>
+          <li>Entering inputs into the command line/window using simple arithmetic as an example</li>
+          <li>Mention BODMAS and imaginary numbers</li>
+          <li>Creating variables and assignment (naming rules and procedure)</li>
+          <li>Must start with a letter, may contain numbers, cannot contain symbols except for underscore (spaces are not allowed)</li>
+          <li>Give invalid examples (1var, hello 4, te$t)</li>
+          <li>Any errors and warnings will be displayed in the command window</li>
+          <li>Give valid examples (a2, number_of_pets, really_long_variable_name_which_you_should_avoid_using)</li>
+          <li>Maximum identifier length of 63 characters</li>
+          <li>Brief introduction to arrays/matrices and MATLAB functions via plotting</li>
+          <li>Clearing the command window, workspace and command history</li>
+        </ul>
+      </div>
+    </article>
+
+    <!-- Lesson 2 -->
+    <article class="lesson">
+      <div class="lesson-header">
+        <div class="lesson-num">2</div>
+        <h2>Creating a MATLAB script</h2>
+      </div>
+      <div class="video-wrap">
+        <iframe src="https://www.youtube.com/embed/bxYiUfsOby0" allowfullscreen
+          title="Creating a MATLAB script"></iframe>
+      </div>
+      <div class="lesson-body">
+        <div class="lesson-links">
+          <a class="yt-link" href="https://youtu.be/bxYiUfsOby0" target="_blank" rel="noopener">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M23.5 6.2a3 3 0 0 0-2.1-2.1C19.5 3.5 12 3.5 12 3.5s-7.5 0-9.4.6A3 3 0 0 0 .5 6.2 31 31 0 0 0 0 12a31 31 0 0 0 .5 5.8 3 3 0 0 0 2.1 2.1c1.9.6 9.4.6 9.4.6s7.5 0 9.4-.6a3 3 0 0 0 2.1-2.1A31 31 0 0 0 24 12a31 31 0 0 0-.5-5.8zM9.7 15.5V8.5l6.3 3.5-6.3 3.5z"/></svg>
+            Watch on YouTube
+          </a>
+          <a class="pdf-link" href="Module 01 - MATLAB Fundamentals/Lecture 1 - 2 Creating a MATLAB Script.pdf" target="_blank" rel="noopener">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8l-6-6zm-1 1.5L18.5 9H13V3.5zM6 20V4h5v7h7v9H6z"/></svg>
+            Lecture Slides
+          </a>
+        </div>
+        <h3>Topics covered</h3>
+        <ul>
+          <li>Purpose and procedure of creating a MATLAB script</li>
+          <li>Naming rules of a MATLAB script</li>
+          <li>MATLAB files have the .m extension</li>
+          <li>Explain the current folder UI element and its relationship to the newly created script</li>
+          <li>Show the prompt relating to mismatch between script directory and Current Folder directory</li>
+          <li>Click Change Folder to automatically change Current Folder</li>
+          <li>Add to Path if you do not want to change current folder</li>
+        </ul>
+      </div>
+    </article>
+
+    <!-- Lesson 3 -->
+    <article class="lesson">
+      <div class="lesson-header">
+        <div class="lesson-num">3</div>
+        <h2>Script formatting</h2>
+      </div>
+      <div class="video-wrap">
+        <iframe src="https://www.youtube.com/embed/X0aksF9gtxo" allowfullscreen
+          title="Script formatting"></iframe>
+      </div>
+      <div class="lesson-body">
+        <div class="lesson-links">
+          <a class="yt-link" href="https://youtu.be/X0aksF9gtxo" target="_blank" rel="noopener">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M23.5 6.2a3 3 0 0 0-2.1-2.1C19.5 3.5 12 3.5 12 3.5s-7.5 0-9.4.6A3 3 0 0 0 .5 6.2 31 31 0 0 0 0 12a31 31 0 0 0 .5 5.8 3 3 0 0 0 2.1 2.1c1.9.6 9.4.6 9.4.6s7.5 0 9.4-.6a3 3 0 0 0 2.1-2.1A31 31 0 0 0 24 12a31 31 0 0 0-.5-5.8zM9.7 15.5V8.5l6.3 3.5-6.3 3.5z"/></svg>
+            Watch on YouTube
+          </a>
+          <a class="pdf-link" href="Module 01 - MATLAB Fundamentals/Lecture 1 - 3 Script Formatting.pdf" target="_blank" rel="noopener">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8l-6-6zm-1 1.5L18.5 9H13V3.5zM6 20V4h5v7h7v9H6z"/></svg>
+            Lecture Slides
+          </a>
+        </div>
+        <h3>Topics covered</h3>
+        <ul>
+          <li>Comments — purpose, positions (before or after lines and identification blocks)</li>
+          <li>White spacing between unrelated code</li>
+          <li>Wrap text or use of ellipses</li>
+          <li>Clicking on a variable name to see all instances of its use</li>
+          <li>Use of Shift+Enter to change all instances of a variable name</li>
+          <li>Sections — purpose and use of Run Section</li>
+          <li>The space is only necessary when creating a section heading</li>
+          <li>Indentation/tabbing</li>
+        </ul>
+      </div>
+    </article>
+
+    <nav class="module-nav">
+      <a href="index.html">← Course Home</a>
+      <div class="spacer"></div>
+      <a href="module-02.html">Module 2 →</a>
+    </nav>
+  </main>
+
+</div>
+
+<footer>&copy; 2026 First-Year Engineering Portal</footer>
+</body>
+</html>

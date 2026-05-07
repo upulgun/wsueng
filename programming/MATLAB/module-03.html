@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Module 3 – Arrays and Matrices</title>
+  <link rel="stylesheet" href="module.css" />
+</head>
+<body>
+
+<header>
+  <div class="module-tag">Module 3 of 8</div>
+  <h1>Arrays and Matrices</h1>
+  <p>5 lessons &nbsp;·&nbsp; Creating arrays, indexing, element-wise and matrix operations</p>
+</header>
+
+<nav class="breadcrumb">
+  <a href="../../index.html">Portal</a><span>›</span>
+  <a href="../index.html">Foundations of Programming</a><span>›</span>
+  <a href="index.html">MATLAB</a><span>›</span>
+  Module 3
+</nav>
+
+<div class="page-body">
+
+  <aside class="sidebar">
+    <h3>All Modules</h3>
+    <a href="module-01.html"><span class="num">1</span>MATLAB Fundamentals</a>
+    <a href="module-02.html"><span class="num">2</span>MATLAB Functions</a>
+    <a href="module-03.html" class="active"><span class="num">3</span>Arrays and Matrices</a>
+    <a href="module-04.html"><span class="num">4</span>Logical Statements</a>
+    <a href="module-05.html"><span class="num">5</span>Loops</a>
+    <a href="module-06.html"><span class="num">6</span>MATLAB Graphics</a>
+    <a href="module-07.html"><span class="num">7</span>User-defined Functions</a>
+    <a href="module-08.html"><span class="num">8</span>Symbolic Mathematics</a>
+  </aside>
+
+  <main class="content">
+    <p class="section-label">Lessons</p>
+
+    <!-- Lesson 1 -->
+    <article class="lesson">
+      <div class="lesson-header">
+        <div class="lesson-num">1</div>
+        <h2>Creating arrays</h2>
+      </div>
+      <div class="video-wrap">
+        <iframe src="https://www.youtube.com/embed/9G19v22-Ua4" allowfullscreen
+          title="Creating arrays"></iframe>
+      </div>
+      <div class="lesson-body">
+        <div class="lesson-links">
+          <a class="yt-link" href="https://youtu.be/9G19v22-Ua4" target="_blank" rel="noopener">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M23.5 6.2a3 3 0 0 0-2.1-2.1C19.5 3.5 12 3.5 12 3.5s-7.5 0-9.4.6A3 3 0 0 0 .5 6.2 31 31 0 0 0 0 12a31 31 0 0 0 .5 5.8 3 3 0 0 0 2.1 2.1c1.9.6 9.4.6 9.4.6s7.5 0 9.4-.6a3 3 0 0 0 2.1-2.1A31 31 0 0 0 24 12a31 31 0 0 0-.5-5.8zM9.7 15.5V8.5l6.3 3.5-6.3 3.5z"/></svg>
+            Watch on YouTube
+          </a>
+          <a class="pdf-link" href="Module 03 - Arrays and Matrices/Lecture 3 - 1 Creating Arrays.pdf" target="_blank" rel="noopener">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8l-6-6zm-1 1.5L18.5 9H13V3.5zM6 20V4h5v7h7v9H6z"/></svg>
+            Lecture Slides
+          </a>
+        </div>
+        <h3>Topics covered</h3>
+        <ul>
+          <li>Difference between scalars, vectors and matrices</li>
+          <li>Use of colons for vectors and matrices</li>
+          <li>linspace(), logspace(), magic(), rand(), zeros(), ones()</li>
+          <li>Use of square brackets and semi-colons</li>
+          <li>Transposing arrays, fliplr(), flipud()</li>
+        </ul>
+      </div>
+    </article>
+
+    <!-- Lesson 2 -->
+    <article class="lesson">
+      <div class="lesson-header">
+        <div class="lesson-num">2</div>
+        <h2>Array indexing</h2>
+      </div>
+      <div class="video-wrap">
+        <iframe src="https://www.youtube.com/embed/4kx_QxvD4rs" allowfullscreen
+          title="Array indexing"></iframe>
+      </div>
+      <div class="lesson-body">
+        <div class="lesson-links">
+          <a class="yt-link" href="https://youtu.be/4kx_QxvD4rs" target="_blank" rel="noopener">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M23.5 6.2a3 3 0 0 0-2.1-2.1C19.5 3.5 12 3.5 12 3.5s-7.5 0-9.4.6A3 3 0 0 0 .5 6.2 31 31 0 0 0 0 12a31 31 0 0 0 .5 5.8 3 3 0 0 0 2.1 2.1c1.9.6 9.4.6 9.4.6s7.5 0 9.4-.6a3 3 0 0 0 2.1-2.1A31 31 0 0 0 24 12a31 31 0 0 0-.5-5.8zM9.7 15.5V8.5l6.3 3.5-6.3 3.5z"/></svg>
+            Watch on YouTube
+          </a>
+          <a class="pdf-link" href="Module 03 - Arrays and Matrices/Lecture 3 - 2 Array Indexing.pdf" target="_blank" rel="noopener">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8l-6-6zm-1 1.5L18.5 9H13V3.5zM6 20V4h5v7h7v9H6z"/></svg>
+            Lecture Slides
+          </a>
+        </div>
+        <h3>Topics covered</h3>
+        <ul>
+          <li>Indexing individual elements</li>
+          <li>Indexing rows</li>
+          <li>Indexing columns</li>
+          <li>Indexing groups of elements</li>
+          <li>You cannot index out of bounds</li>
+        </ul>
+      </div>
+    </article>
+
+    <!-- Lesson 3 -->
+    <article class="lesson">
+      <div class="lesson-header">
+        <div class="lesson-num">3</div>
+        <h2>Element-wise operations</h2>
+      </div>
+      <div class="video-wrap">
+        <iframe src="https://www.youtube.com/embed/potmfAeTqHQ" allowfullscreen
+          title="Element-wise operations"></iframe>
+      </div>
+      <div class="lesson-body">
+        <div class="lesson-links">
+          <a class="yt-link" href="https://youtu.be/potmfAeTqHQ" target="_blank" rel="noopener">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M23.5 6.2a3 3 0 0 0-2.1-2.1C19.5 3.5 12 3.5 12 3.5s-7.5 0-9.4.6A3 3 0 0 0 .5 6.2 31 31 0 0 0 0 12a31 31 0 0 0 .5 5.8 3 3 0 0 0 2.1 2.1c1.9.6 9.4.6 9.4.6s7.5 0 9.4-.6a3 3 0 0 0 2.1-2.1A31 31 0 0 0 24 12a31 31 0 0 0-.5-5.8zM9.7 15.5V8.5l6.3 3.5-6.3 3.5z"/></svg>
+            Watch on YouTube
+          </a>
+          <a class="pdf-link" href="Module 03 - Arrays and Matrices/Lecture 3 - 3 Element-wise Operations.pdf" target="_blank" rel="noopener">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8l-6-6zm-1 1.5L18.5 9H13V3.5zM6 20V4h5v7h7v9H6z"/></svg>
+            Lecture Slides
+          </a>
+        </div>
+        <h3>Topics covered</h3>
+        <ul>
+          <li>Element-wise operators: .*, ./, .^</li>
+          <li>Visual example of array operations</li>
+          <li>Difference between array and matrix operations</li>
+          <li>Example where both would work (square matrices)</li>
+        </ul>
+      </div>
+    </article>
+
+    <!-- Lesson 4 -->
+    <article class="lesson">
+      <div class="lesson-header">
+        <div class="lesson-num">4</div>
+        <h2>Matrix operations</h2>
+      </div>
+      <div class="video-wrap">
+        <iframe src="https://www.youtube.com/embed/ETRe-WuWPUQ" allowfullscreen
+          title="Matrix operations"></iframe>
+      </div>
+      <div class="lesson-body">
+        <div class="lesson-links">
+          <a class="yt-link" href="https://youtu.be/ETRe-WuWPUQ" target="_blank" rel="noopener">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M23.5 6.2a3 3 0 0 0-2.1-2.1C19.5 3.5 12 3.5 12 3.5s-7.5 0-9.4.6A3 3 0 0 0 .5 6.2 31 31 0 0 0 0 12a31 31 0 0 0 .5 5.8 3 3 0 0 0 2.1 2.1c1.9.6 9.4.6 9.4.6s7.5 0 9.4-.6a3 3 0 0 0 2.1-2.1A31 31 0 0 0 24 12a31 31 0 0 0-.5-5.8zM9.7 15.5V8.5l6.3 3.5-6.3 3.5z"/></svg>
+            Watch on YouTube
+          </a>
+          <a class="pdf-link" href="Module 03 - Arrays and Matrices/Lecture 3 - 4 Matrix Operations.pdf" target="_blank" rel="noopener">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8l-6-6zm-1 1.5L18.5 9H13V3.5zM6 20V4h5v7h7v9H6z"/></svg>
+            Lecture Slides
+          </a>
+        </div>
+        <h3>Topics covered</h3>
+        <ul>
+          <li>Addition/subtraction, transposition, scalar multiplication, matrix multiplication</li>
+          <li>Matrix functions: eye(), inv() or A^-1, det(), cross(), dot(), repmat()</li>
+        </ul>
+      </div>
+    </article>
+
+    <!-- Lesson 5 -->
+    <article class="lesson">
+      <div class="lesson-header">
+        <div class="lesson-num">5</div>
+        <h2>Solving a system of linear equations</h2>
+      </div>
+      <div class="video-wrap">
+        <iframe src="https://www.youtube.com/embed/spDKCcztP9k" allowfullscreen
+          title="Solving a system of linear equations"></iframe>
+      </div>
+      <div class="lesson-body">
+        <div class="lesson-links">
+          <a class="yt-link" href="https://youtu.be/spDKCcztP9k" target="_blank" rel="noopener">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M23.5 6.2a3 3 0 0 0-2.1-2.1C19.5 3.5 12 3.5 12 3.5s-7.5 0-9.4.6A3 3 0 0 0 .5 6.2 31 31 0 0 0 0 12a31 31 0 0 0 .5 5.8 3 3 0 0 0 2.1 2.1c1.9.6 9.4.6 9.4.6s7.5 0 9.4-.6a3 3 0 0 0 2.1-2.1A31 31 0 0 0 24 12a31 31 0 0 0-.5-5.8zM9.7 15.5V8.5l6.3 3.5-6.3 3.5z"/></svg>
+            Watch on YouTube
+          </a>
+          <a class="pdf-link" href="Module 03 - Arrays and Matrices/Lecture 3 -5 Solving a System of Linear Equations.pdf" target="_blank" rel="noopener">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8l-6-6zm-1 1.5L18.5 9H13V3.5zM6 20V4h5v7h7v9H6z"/></svg>
+            Lecture Slides
+          </a>
+        </div>
+        <h3>Topics covered</h3>
+        <ul>
+          <li>Example on solving a system of linear equations</li>
+          <li>Using the left division operator \ for AX = B</li>
+        </ul>
+      </div>
+    </article>
+
+    <nav class="module-nav">
+      <a href="module-02.html">← Module 2</a>
+      <div class="spacer"></div>
+      <a href="module-04.html">Module 4 →</a>
+    </nav>
+  </main>
+
+</div>
+
+<footer>&copy; 2026 First-Year Engineering Portal</footer>
+</body>
+</html>
