@@ -1,0 +1,20 @@
+
+
+
+
+
+npx wrangler pages deploy ./dist --project-name=wsueng
+
+
+build Command
+
+rm -rf .git && mkdir -p out && cp -r public/* out/ && find out -depth -name "* *" -execdir bash -c 'mv "$1" "${1// /_}"' _ {} \;
+
+deploy command 
+npx wrangler deploy --assets "./out" --name wsueng --compatibility-date 2026-05-07
+
+Non-production brach deploy command
+npx wrangler versions upload
+
+Path 
+/
