@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>C++ – Foundations of Programming</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f0f4f8;
+      color: #1a202c;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+
+    header {
+      background-color: #1e3a5f;
+      color: #fff;
+      padding: 2rem 1.5rem;
+      text-align: center;
+    }
+    header h1 { font-size: 2.2rem; }
+    header p  { margin-top: 0.5rem; font-size: 1.05rem; color: #a8c4e0; }
+
+    .breadcrumb {
+      max-width: 1000px;
+      margin: 1.5rem auto 0;
+      padding: 0 1.5rem;
+      font-size: 0.9rem;
+      color: #4a5568;
+    }
+    .breadcrumb a { color: #1e3a5f; text-decoration: none; font-weight: 600; }
+    .breadcrumb a:hover { text-decoration: underline; }
+    .breadcrumb span { margin: 0 0.4rem; }
+
+    main {
+      flex: 1;
+      max-width: 1000px;
+      width: 100%;
+      margin: 2rem auto 3rem;
+      padding: 0 1.5rem;
+    }
+
+    .intro {
+      background: #fff;
+      border-radius: 12px;
+      padding: 1.75rem 2rem;
+      margin-bottom: 2rem;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+    }
+    .intro h2 { font-size: 1.2rem; color: #1e3a5f; margin-bottom: 0.5rem; }
+    .intro p  { font-size: 0.95rem; color: #4a5568; line-height: 1.7; }
+
+    .section-label {
+      font-size: 0.85rem;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      color: #718096;
+      margin-bottom: 1rem;
+    }
+
+    .module-list { display: flex; flex-direction: column; gap: 1rem; }
+
+    .module-card {
+      background: #fff;
+      border-radius: 12px;
+      padding: 1.5rem 1.75rem;
+      display: flex;
+      align-items: center;
+      gap: 1.5rem;
+      text-decoration: none;
+      color: inherit;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+      border: 2px solid transparent;
+      transition: transform 0.18s ease, box-shadow 0.18s ease, border-color 0.18s ease;
+    }
+    .module-card:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 8px 20px rgba(0,0,0,0.11);
+      border-color: #1e3a5f;
+    }
+
+    .module-num {
+      background-color: #1e3a5f;
+      color: #fff;
+      font-size: 1rem;
+      font-weight: 700;
+      width: 2.8rem;
+      height: 2.8rem;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-shrink: 0;
+    }
+
+    .module-info { flex: 1; }
+    .module-info h3 { font-size: 1.1rem; color: #1e3a5f; margin-bottom: 0.25rem; }
+    .module-info p  { font-size: 0.88rem; color: #718096; }
+
+    .module-arrow { font-size: 1.2rem; color: #a0aec0; }
+
+    footer {
+      text-align: center;
+      padding: 1.5rem;
+      font-size: 0.85rem;
+      color: #718096;
+      border-top: 1px solid #e2e8f0;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>⚙️ C++</h1>
+  <p>Foundations of Programming — 4-module course</p>
+</header>
+
+<nav class="breadcrumb">
+  <a href="../../index.html">Portal</a>
+  <span>›</span>
+  <a href="../index.html">Foundations of Programming</a>
+  <span>›</span>
+  C++
+</nav>
+
+<main>
+  <div class="intro">
+    <h2>About this course</h2>
+    <p>
+      This course introduces C++ programming across four modules. Starting from
+      setting up the development environment and language fundamentals, it progresses
+      through operators and control structures, functions, and arrays — building the
+      foundation for structured, efficient programming in an engineering context.
+    </p>
+  </div>
+
+  <p class="section-label">Course Modules</p>
+  <div class="module-list">
+
+    <a href="module-01.html" class="module-card">
+      <div class="module-num">1</div>
+      <div class="module-info">
+        <h3>Introduction to C++</h3>
+        <p>10 lessons &nbsp;·&nbsp; Setup, fundamentals, variables, I/O</p>
+      </div>
+      <div class="module-arrow">›</div>
+    </a>
+
+    <a href="module-02.html" class="module-card">
+      <div class="module-num">2</div>
+      <div class="module-info">
+        <h3>Operators and Control Structures</h3>
+        <p>8 lessons &nbsp;·&nbsp; Operators, conditionals, loops</p>
+      </div>
+      <div class="module-arrow">›</div>
+    </a>
+
+    <a href="module-03.html" class="module-card">
+      <div class="module-num">3</div>
+      <div class="module-info">
+        <h3>C++ Functions</h3>
+        <p>8 lessons &nbsp;·&nbsp; Function structure, scope, overloading</p>
+      </div>
+      <div class="module-arrow">›</div>
+    </a>
+
+    <a href="module-04.html" class="module-card">
+      <div class="module-num">4</div>
+      <div class="module-info">
+        <h3>Arrays in C++</h3>
+        <p>9 lessons &nbsp;·&nbsp; 1D and 2D arrays, operations, functions</p>
+      </div>
+      <div class="module-arrow">›</div>
+    </a>
+
+  </div>
+</main>
+
+<footer>&copy; 2026 First-Year Engineering Portal</footer>
+
+</body>
+</html>

@@ -1,7 +1,13 @@
 Module 01 - Introduction to Excel
-1. Introduction to Arrays.
+1. Introduction to Excel
+https://youtu.be/0YBWgnhVJB8
 2. Excel Basics.
+https://youtu.be/xQAkqgCflJ8
 3. Addressing Cells.
+https://youtu.be/TeUd9FOsJHM
 4. Basic Mathematical Operations.
+https://youtu.be/0h5Xu66kcR0
 5. Advanced Mathematical Operations.
+https://youtu.be/09182dV4kS8
 6. Graphing.
+https://youtu.be/Valc7A1mBsI
