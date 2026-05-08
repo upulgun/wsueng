@@ -1,39 +1,77 @@
 1)	Module 01: Introduction to C++
 	1-1)	Why C++?
+	https://youtu.be/fs_42N6zjzA
 	1-2)	Download and install Visual Studio.
+	https://youtu.be/RR55dWtpNvI
 	1-3)	Create a new project and cpp file in Visual Studio.
+	https://youtu.be/_1YSudub4Ss
 	1-4)	Start to code with C++.
+	https://youtu.be/QYM0Xmiqxbs
 	1-5)	C++ Fundamentals.
+	https://youtu.be/pTeXqpiCI20
 	1-6)	Program Execution and Programming.
-	1-7)	Variables.
+	https://youtu.be/pTeXqpiCI20
+	1-7)	Variables & Data Types.
+	https://youtu.be/pTeXqpiCI20
 	1-8)	Basic input / output (I/O).
+	https://youtu.be/GNGIEZbu3n4
 	1-9)	Stream Manipulators.
+	https://youtu.be/7oNIoRnq6wQ
 	1-10)	File input / output (I/O).
+	https://youtu.be/_1YSudub4Ss
+
 2)	Module 02: C++ Operators and Control Structures
 	2-1)	Assignments and Arithmetic Operators.
+	https://youtu.be/YWzkSTASApk
 	2-2)	Other Common Operators.
+	https://youtu.be/UvIX6Ozgw3c
 	2-3)	if Conditional Branch.
+	https://youtu.be/VafmAmeF4ZU
 	2-4)	switch Conditional Branch.
+	https://youtu.be/RR55dWtpNvI
 	2-5)	while Iteration Statement.
+	https://youtu.be/pTeXqpiCI20
 	2-6)	do-while Iteration Statement.
+	https://youtu.be/1V7M-bEGPUs
 	2-7)	for Iteration Statement.
+	https://youtu.be/QKqVEcettbs
 	2-8)	Nested loops & Exit Statement.
+	https://youtu.be/i-7z7Y7weok
+
 3)	Module 03: C++ Functions
 	3-1)	Introduction to Functions.
+	https://youtu.be/B4rkvRKwgUM
 	3-2)	Calling a Function.
+	https://youtu.be/nKzLwgje_3E
 	3-3)	Function Prototypes.
+	https://youtu.be/-FZyR0HsVwU
 	3-4)	Sending Data into a Function.
+	https://youtu.be/3XtfOn-eHbY
 	3-5)	Return a Value from a Function.
+	https://youtu.be/3XtfOn-eHbY
 	3-6)	Global & Local Variables.
+	https://youtu.be/3XtfOn-eHbY
 	3-7)	Static Local Variables & Default Arguments.
+	https://youtu.be/ZIxDOrt2dWM
 	3-8)	Reference Variables & Function Overloading.
+	https://youtu.be/iY4Lubp8NsY
+
 4)	Module 04: C++ Arrays
 	4-1)	Introduction to Arrays.
+	https://youtu.be/WOfc5dvMukI
 	4-2)	Accessing Array Contents.
+	https://youtu.be/pTeXqpiCI20
 	4-3)	Array Initialisation & Assignment.
+	https://youtu.be/pTeXqpiCI20
 	4-4)	Operations on Arrays.
+	https://youtu.be/JI_iDgFNvWw
 	4-5)	Arrays in a Function.
+	https://youtu.be/IgbseILd61k
 	4-6)	Introduction to 2D Arrays.
+	https://youtu.be/AaoZiklEVow
 	4-7)	2D Arrays in a Function.
+	https://youtu.be/Hx376T4JQxc
 	4-8)	Operations on 2D Arrays.
+	https://youtu.be/pTeXqpiCI20
 	4-9)	2D String Array.
+	https://youtu.be/pTeXqpiCI20
